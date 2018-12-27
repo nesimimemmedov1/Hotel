@@ -1,0 +1,1396 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: brandon;
+    background-image: url(img/p2-1.jpg)
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+}
+
+/* @media (max-witdh: 1200px) {
+    .logogem logo {
+        width: 100%;
+    }
+} */
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextMedium.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextMedium.otf)
+}
+
+/* ========header-top======== */
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container .row .phone {
+    font-size: 15px;
+    color: #B3B3B3;
+    transform: rotateY(180deg);
+}
+
+.header-top {
+    height: 56px;
+    background-color: rgba(0, 0, 0, 0.55);
+    width: 100%;
+    position: absolute;
+    border-bottom: solid;
+    border-color: #564c3b;
+    border-width: 1px;
+}
+
+.container .inform .phone:hover {
+    color: #E2C285;
+    transition: step-start;
+    transition: 0.5s ease;
+}
+
+.container .inform a {
+    color: #B3B3B3;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.container .inform a:hover {
+    color: #E2C285;
+    transition: 0.5s;
+}
+
+.contact i {
+    color: #B3B3B3;
+    font-size: 17px;
+}
+
+.contact i:hover {
+    color: #E2C285;
+    transition: 0.5s;
+}
+
+.connection i {
+    font-size: 15px;
+    color: #B3B3B3;
+}
+
+.connection .paragraphs {
+    font-size: 12px;
+    color: #B3B3B3;
+    font-family: brandon;
+}
+
+.paragraphs:hover {
+    text-decoration: underline;
+    color: #E2C285;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .header-bottom .container .row .connection .icons .paragraphs {
+        color: red;
+        font-size: 20px;
+    }
+}
+
+.inform {
+    border-right: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+    height: 56px;
+}
+
+/* @media (max-witdh: 1200px){
+    .header-bottom .container .row .inputend{
+        width: 1124px;
+        height: 120px;
+    }
+} */
+
+.contact {
+    border-right: solid;
+    border-color: #564c3b;
+    border-width: 1px;
+    height: 56px;
+}
+
+.connection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ======//header-top======= */
+/* =======header-bottom===== */
+.thegemhotel {
+    background-image: url(img/foto1.jpg);
+    height: 951px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.header-bottom .navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-bottom .icons {
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header-bottom .navbar .logogem img {
+    margin-bottom: -1px;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container .navbar-nav .nav-item i {
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.header-bottom .navbar-collapse .navbar-nav li a:hover {
+    transition: 0.5s;
+    color: #E2C285 !important;
+    cursor: pointer;
+}
+
+.header-bottom .navbar-collapse .navbar-nav li i:hover {
+    transition: 0.5s;
+    color: #E2C285;
+    cursor: pointer;
+}
+
+.promotion {
+    flex-direction: column;
+}
+
+.promotion h1 {
+    font-size: 110px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: brandon;
+}
+
+.promotion h3 {
+    color: white;
+    font-family: brandon;
+    font-size: 60px;
+}
+
+.header-bottom .input1 {
+    width: 270px;
+    height: 126px;
+    background-color: rgba(0, 0, 0, 0.71);
+    border: solid;
+    border-color: #564c3b;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.header-bottom .input1 .check {
+    color: white;
+    font-weight: 100;
+}
+
+.header-bottom .input1 i {
+    color: #E2C285;
+    font-size: 19px;
+}
+
+.header-bottom .input1 .timee {
+    color: #E2C285;
+    font-size: 37px;
+    margin: 0;
+}
+
+.header-bottom .input1 .guest {
+    color: white;
+    font-weight: 100;
+}
+
+.header-bottom .inputend .reserv {
+    color: #E2C285;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 100;
+}
+
+.header-bottom .inputend {
+    width: 270px;
+    height: 126px;
+    background-color: rgba(0, 0, 0, 0.71);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #E2C285;
+    border-width: 1px;
+}
+
+.header-bottom .inputend:hover {
+    background-color: #E2C285;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.header-bottom .inputend:hover h1 {
+    color: #101010;
+    transition: 0.3s;
+}
+
+/* @media (max-witdh: 1200px){
+    .header-bottom .container .row .inputend{
+        width: 1124px;
+        height: 120px;
+    }
+} */
+
+.learnmore {
+    border-top: solid;
+    border-width: 1px;
+    border-bottom: solid;
+    border-bottom-width: 1px;
+    border-color: #564c3b;
+}
+
+/* //header-bottom */
+/* ====learnmore==== */
+.learnmore img {
+    width: 100%;
+    height: 461px;
+    object-fit: cover;
+}
+
+.learnmore .line3 {
+    background-color: #101010;
+    width: 100%;
+    height: 461px;
+    border-left: solid;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.learnmore .saff {
+    background-color: #101010;
+    width: 100%;
+    height: 461px;
+    border-left: solid;
+    border-width: 0px;
+    border-right: solid;
+    border-right-width: 1px;
+    border-top: solid;
+    border-top-width: 1px;
+    border-color: #564c3b;
+}
+
+.learnmore .great-services {
+    background-color: #101010;
+    width: 100%;
+    height: 461px;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+    border-top-width: 0px;
+}
+
+.learnmore .line3 img {
+    width: 102px;
+    height: 28px;
+}
+
+.learnmore .line3 h1 {
+    color: #E2C285;
+    font-size: 34px;
+    font-family: brandon;
+}
+
+.learnmore .line3 p {
+    color: #b1aca3;
+    text-align: center;
+    font-family: brandon;
+    font-size: 15px;
+}
+
+.learnmore .btn {
+    background: transparent;
+    color: #E2C285;
+    border-radius: 0;
+    width: 131px;
+    height: 40px;
+    border: solid;
+    border-width: 1px;
+    border-color: #E2C285;
+
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+.learnmore .btn:hover {
+    background-color: #E2C285;
+    color: #101010;
+}
+
+/* ==//learnmore==== */
+/* ====statistica=== */
+
+.statistica {
+    background-image: url(img/p1.jpg);
+    height: 333px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.statistica h5 {
+    color: azure;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextMedium.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextMedium.otf)
+}
+
+.statistica h2 {
+    color: #E2C285;
+    margin-top: 8px;
+    position: absolute;
+}
+
+.statistica p {
+    color: #E2C285;
+    position: absolute;
+    display: flex;
+    align-self: flex-end;
+    margin-top: 50px;
+}
+
+/* ==//statistica=== */
+/* ======stars====== */
+.stars {
+    background-image: url(img/5-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1032px;
+}
+
+.stars img {
+    object-fit: contain;
+}
+
+.stars h5 {
+    font-size: 20px;
+    text-align: center;
+    font-family: brandon;
+    margin-bottom: -10px;
+}
+
+
+.stars h1 {
+    color: #CB9734;
+    font-size: 75px;
+    text-align: center;
+    font-family: brandon;
+    font-weight: 600;
+}
+
+.stars h6 {
+    font-size: 15px;
+    text-align: center;
+    font-family: brandon;
+    line-height: 1.5;
+    display: flex;
+}
+
+.stars .twoabout {
+    font-size: 15px;
+    text-align: center;
+    font-family: brandon;
+    line-height: 1.5;
+}
+
+.stars .row ul li i {
+    color: #CB9734;
+}
+
+.stars ul li {
+    line-height: 2.3;
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+/* ==//stars==== */
+/* ===pernight== */
+.pernight img {
+    height: 660px;
+    object-fit: scale-down;
+}
+
+.pernight .room {
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.pernight .deluxoroom {
+    height: 661px;
+    background-color: #101010;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+.pernight h1 {
+    font-family: abel;
+    color: #E2C285;
+}
+
+.pernight .line {
+    width: 102px;
+    height: 28px;
+}
+
+.pernight h6 {
+    color: #E2C285;
+    font-size: 16px;
+}
+
+.pernight p {
+    text-align: center;
+    color: #b1aca3;
+    font-size: 15px;
+}
+
+.pernight .icons i {
+    font-size: 20px;
+    color: #E2C285;
+}
+
+.pernight .icons h1 {
+    font-size: 19px;
+    text-align: center;
+    margin: 0;
+}
+
+.border-rightt {
+    border-left: 1px solid #444032 !important;
+    height: 80px;
+}
+
+/* ===//pernight=== */
+/* ===our-rooms==== */
+.our-rooms {
+    background-image: url(img/p1.jpg);
+    height: 2330px;
+    background-size: auto;
+    background-repeat: initial;
+    background-attachment: fixed;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+
+.our-rooms h6 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 0;
+    font-family: brandon;
+}
+
+.our-rooms h1 {
+    font-size: 54px;
+    color: #E2C285;
+    font-family: brandon;
+    font-weight: 600;
+
+}
+
+.our-rooms .container-fluid img {
+    width: 464px;
+    height: 327px;
+    object-fit: cover;
+    position: relative;
+}
+
+.our-rooms .btn1 {
+    background: transparent;
+    width: 232px;
+    height: 52px;
+    font-size: 20px;
+    color: #E2C285;
+    font-family: brandon;
+    cursor: pointer;
+    border: solid;
+    border-width: 1px;
+}
+
+.our-rooms .btn1:hover {
+    background-color: #E2C285;
+    color: black;
+    transition: 0.6s;
+}
+
+.our-rooms .row .about .servicesimage {
+    width: 639px;
+    height: 479px;
+    object-fit: cover;
+    position: relative;
+    border-left: solid;
+    border-bottom: solid;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.our-rooms .about .places1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    left: 202px;
+    position: absolute;
+    top: 218px;
+}
+
+.our-rooms .about .places2 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    left: 200px;
+    position: absolute;
+    top: 218px;
+}
+
+.our-rooms .about .places3 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    left: 240px;
+    position: absolute;
+    top: 218px;
+}
+
+
+.our-rooms .about .line3 {
+    width: 129px;
+    height: 35px;
+    margin: 0 auto;
+    top: -206px;
+}
+
+
+.our-rooms .row .line12 {
+    width: 333px;
+    height: 54px;
+    margin: 0 auto;
+    position: absolute;
+    top: 148px;
+    left: 153px;
+}
+
+.our-rooms .row .line1 {
+    width: 333px;
+    height: 54px;
+    margin: 0 auto;
+}
+
+.our-rooms .row .iphone {
+    width: 570px;
+    height: 716px;
+    object-fit: cover;
+    margin-top: 70px;
+}
+
+.our-rooms h3 {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.our-rooms .onlineroom {
+    font-size: 62px;
+    color: #E2C285;
+    text-align: center;
+}
+
+.our-rooms .line2 img {
+    width: 129px;
+    height: 35px;
+}
+
+.our-rooms p {
+    color: #b1aca3;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.our-rooms .btn2 {
+    background: transparent;
+    width: 232px;
+    height: 52px;
+    font-size: 20px;
+    color: #E2C285;
+    font-family: brandon;
+    cursor: pointer;
+    margin: 0 auto;
+    border: solid;
+    border-width: 1px;
+    border-color: #E2C285;
+}
+
+.our-rooms .btn2:hover {
+    background-color: #E2C285;
+    color: black;
+    transition: 0.6s;
+}
+
+/* ====//our-rooms==== */
+/* =====our-guests==== */
+.our-guests {
+    background-image: url(img/p2-1.jpg);
+    height: 832px;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+@font-face {
+    font-family: abel;
+    src: url(fonts/Abel/Abel-Regular.otf)
+}
+
+.our-guests h3 {
+    color: #605d58;
+    font-size: 19px;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.our-guests h1 {
+    color: #CB9734;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.our-guests .reviews img {
+    border-radius: 63px;
+}
+
+.our-guests .reviews p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.6;
+    font-family: brandon;
+    font-weight: 600;
+}
+
+.our-guests .reviews h3 {
+    padding: 0;
+    color: #da9a23;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: brandon;
+}
+
+.our-guests .reviews h5 {
+    color: #676663;
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    font-family: brandon;
+    font-weight: 600;
+}
+
+.our-guests .reviews h6 {
+    text-align: center;
+    font-size: 120px;
+    color: #e2c285;
+    font-weight: bold;
+    margin-top: -10px;
+    font-family: brandon;
+}
+
+/* =====our-rooms===== */
+/* ===special-offers== */
+
+.special-offers {
+    background-image: url(img/28.jpg);
+    height: 1551px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-Regular.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-Regular.otf)
+}
+
+.special-offers h6 {
+    color: white;
+    text-align: center;
+    font-size: 19px;
+    font-family: brandon;
+}
+
+.special-offers h2 {
+    color: #E2C285;
+    text-align: center;
+    font-family: brandon;
+    font-size: 50px;
+}
+
+.special-offers .logoo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #282828;
+    margin: 0 auto;
+    position: absolute;
+    top: -60px;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offers .photoinfo {
+    width: 370px;
+    height: 202px;
+}
+
+.special-offers .price {
+    font-size: 30px;
+    color: #E2C285;
+    text-align: center;
+    font-weight: 100;
+}
+
+.special-offers .day {
+    color: #b1aca3;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 500;
+}
+
+.special-offers .gray {
+    background-color: #282828;
+    height: 55px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offers .black {
+    background-color: #161616;
+    height: 55px;
+    width: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.special-offers .buttonsection {
+    background-color: #161616;
+    width: 370px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.special-offers .window h3 {
+    font-size: 15px;
+    color: #c3bcae;
+    text-align: center;
+    margin: 0;
+}
+
+.special-offers .buttonsection .btn3 {
+    width: 172px;
+    height: 50px;
+    background: transparent;
+    border-style: none;
+    cursor: pointer;
+    color: #E2C285;
+}
+
+.special-offers .buttonsection .btn3:hover {
+    color: black;
+    background-color: #E2C285;
+    transition: 0.6s;
+}
+
+.special-offers .container .diamond h1 {
+    color: #E2C285;
+    font-size: 38px;
+    text-align: center;
+    position: absolute;
+    top: 96px;
+    margin-left: 120px;
+    font-weight: 100;
+    font-family: brandon;
+}
+
+.special-offers .container .gold h1 {
+    color: #E2C285;
+    font-size: 38px;
+    text-align: center;
+    position: absolute;
+    top: 96px;
+    margin-left: 144px;
+    font-weight: 100;
+    font-family: brandon;
+}
+
+.special-offers .container .silver h1 {
+    color: #E2C285;
+    font-size: 38px;
+    text-align: center;
+    position: absolute;
+    top: 96px;
+    left: 141px;
+    font-weight: 100;
+    font-family: brandon;
+}
+
+.special-offers .in-our {
+    height: 409px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 141px;
+    position: relative;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.special-offers .in-our h6 {
+    color: white;
+    font-size: 17px;
+}
+
+.special-offers .in-our h1 {
+    font-weight: 100;
+    font-size: 55px;
+    color: #E2C285;
+    text-align: center;
+}
+
+.special-offers .in-our img {
+    width: 102px;
+    height: 28px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.special-offers .thegem24 {
+    width: 1170px;
+    height: 525px;
+    position: absolute;
+    margin-top: -100px;
+}
+
+
+.thegem24 {
+    position: relative;
+}
+
+.cont-img .thegem24 {
+    vertical-align: middle;
+    margin-top: -100px;
+    position: absolute;
+}
+
+
+.cont-img .overlay {
+    position: absolute;
+    width: 585px;
+    height: 525px;
+    margin-top: -100px;
+    background-color: rgba(28, 28, 28, 0.8);
+    margin-left: -293px;
+}
+
+.cont-img a {
+    color: #E2C285;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-family: brandon;
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+@font-face {
+    font-family: brandon;
+    src: url(fonts/Brandon/Brandon-TextRegular.otf)
+}
+
+
+.cont-img .team a:hover {
+    color: white;
+    transition: 0.6s;
+    text-decoration: none;
+}
+
+.cont-img p {
+    font-size: 15px;
+    text-align: left;
+    color: white;
+}
+
+.cont-img h6 {
+    font-size: 12px;
+    text-align: left;
+    color: #E2C285;
+}
+
+.cont-img .photo-leftt {
+    width: 30px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #414141;
+    transition: 0.3s;
+}
+
+.cont-img .photo-leftt:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.cont-img .photo-rightt:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.cont-img .photo-leftt:hover i {
+    color: #414141;
+    transition: 0.3s;
+}
+
+.cont-img .photo-rightt:hover i {
+    color: #414141;
+    transition: 0.3s;
+}
+
+.cont-img .photo-rightt {
+    width: 30px;
+    height: 30px;
+    background-color: #414141;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.cont-img .photo-leftt i {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.cont-img .photo-rightt i {
+    font-size: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7px;
+}
+
+.team {
+    padding: 40px;
+    padding-top: 90px;
+}
+
+.btn4 {
+    width: 232px;
+    height: 52px;
+    margin-top: 500px;
+    background: transparent;
+    border-style: none;
+    border: solid;
+    border-width: 1px;
+    font-size: 21px;
+    font-weight: 100;
+}
+
+.btn4:hover {
+    color: white;
+    background-color: #101010;
+    transition: 0.6s;
+    border-color: #101010;
+    cursor: pointer;
+}
+
+/* =//special-offers== */
+/* ====video-tour===== */
+.video-tour .video {
+    width: 100%;
+    height: auto;
+}
+
+.video-tour .wiew {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    position: absolute;
+    margin-top: 356px;
+    margin-left: 920px;
+    font-weight: 400;
+}
+
+.video-tour .overlayvideo {
+    height: 841px;
+}
+
+.vtour {
+    color: #E2C285;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 386px;
+    margin-left: 835px;
+    font-weight: 400;
+}
+
+.video-tour .vtourimg {
+    font-size: 50px;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 896px;
+}
+
+/* ==//video-tour===== */
+/* ====map==== */
+.map .googlemap .communication {
+    height: 297px;
+    background-color: rgba(10, 7, 3, 0.77);
+    position: absolute;
+    width: 100%;
+    border-top: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.map .communication .abouticons {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #E2C285;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.googlemap {
+    height: 860px;
+}
+
+.map .communication .abouticons i {
+    font-size: 22px;
+}
+
+.map .communication .adress {
+    font-size: 30px;
+    font-weight: 100;
+    color: #E2C285;
+}
+
+.map .communication .phones {
+    font-size: 30px;
+    font-weight: 100;
+    color: #E2C285;
+}
+
+.map .communication .contacts {
+    font-size: 30px;
+    font-weight: 100;
+    color: #E2C285;
+}
+
+.map .communication p {
+    font-size: 15px;
+    color: white;
+}
+
+/* =====//map==== */
+/* ==footer-top== */
+.footer-top {
+    background-image: url(img/p1.jpg);
+    height: 493px;
+    background-size: inherit;
+    background-attachment: fixed;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #564c3b;
+}
+
+.footer-top .row .thegeminform {
+    color: #b3b3b3;
+    font-size: 15px;
+    line-height: 1.6;
+
+}
+
+.footer-top .row .useful {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.footer-top .row i {
+    color: #c0c3c5;
+    font-size: 5px;
+}
+
+.footer-top .circle i {
+    font-size: 5px;
+    color: #E2C285;
+}
+
+.footer-top .usefulinform {
+    color: #b3b3b3;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 2.2;
+}
+
+.useful-section {
+    margin-top: 11px;
+}
+
+.footer-top .newletter {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+
+.footer-top .subsection {
+    color: #b3b3b3;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: -1px;
+}
+
+.input {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 95% !important;
+}
+
+.form-control {
+    border-style: solid;
+    background-color: #101010 !important;
+    border: 1px solid #4e4e4e !important;
+}
+
+.input i {
+    font-size: 15px !important;
+}
+
+.input .btn5 {
+    background-color: #494949 !important;
+    border-style: none !important;
+    width: 40px !important;
+    border-radius: 3px;
+}
+
+.input .btn5:hover {
+    background-color: #E2C285 !important;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+.input .btn5:hover i {
+    color: #343434 !important;
+    transition: 0.6s;
+}
+
+.footer-top .data {
+    color: #b3b3b3;
+    font-size: 13px;
+    margin: 0;
+}
+
+.footer-top .recent {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    margin-top: -37px;
+}
+
+.footer-top .twitter i {
+    color: #E2C285;
+    font-size: 19px;
+}
+
+.footer-top .twitter h6 {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.footer-top .more {
+    color: #b3b3b3;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 36px;
+}
+
+/* ==//footer-top== */
+/* ====footer-bottom== */
+.footer-bottom {
+    background-color: #101010;
+    height: 106px;
+}
+
+.footer-bottom h6 {
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.footer-bottom a {
+    color: #E2C285;
+    font-size: 14px;
+}
+
+.footer-bottom a:hover {
+    color: #E2C285;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.border-left {
+    border-left: 1px solid #232234 !important;
+}
+
+.footer-bottom ul li {
+    color: #99a9b5;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-bottom ul {
+    margin: 0;
+}
+
+.footer-bottom ul li:hover {
+    color: #E2C285;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footer-bottom .row .endicons ul li a {
+    color: #b3b3b3;
+    font-size: 17px;
+}
+
+.footer-bottom .row .endicons ul li a:hover {
+    color: rgb(248, 248, 248);
+    transition: 0.4s;
+    cursor: pointer;
+}
